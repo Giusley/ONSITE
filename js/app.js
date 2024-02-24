@@ -251,7 +251,7 @@ function showSection(hashValue){
 		
 		if(carrIdx > 20) carrIdx = 0;
 		//console.log(carrIdx)
-		divCarrocel.setAttribute('style', `background-image:url(`/RecursosGraficos/carrocel/${carrIdx}.jpg);`)
+		divCarrocel.setAttribute('style', `background-image:url(`ONSITE/RecursosGraficos/carrocel/${carrIdx}.jpg);`)
 		//divCarrocel.style.animationDuration = '5s'
 		divCarrocel.style.animationName = 'resizeBg'
 		
