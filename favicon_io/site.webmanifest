@@ -1,0 +1,21 @@
+{
+  "name": "Site pessoal Giusley Camilo",
+  "short_name": "Giusley",
+  "description": "Site pessoal Giusley Camilo",
+  "start_url": "../index.html",
+  "display": "standalone",
+  "background_color": "#171c32",
+  "theme_color": "#171c32",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
