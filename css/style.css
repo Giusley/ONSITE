@@ -328,7 +328,7 @@ body::-webkit-scrollbar {
 }
 
 #menu a:hover {
-    text-decoration: underline!important;
+   span{text-decoration: underline!important;}
 	background-color:var(--Matching-Gradient-2);
 	color:white;
 }
