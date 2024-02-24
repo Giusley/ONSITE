@@ -251,11 +251,12 @@ function showSection(hashValue){
 		
 		if(carrIdx > 20) carrIdx = 0;
 		//console.log(carrIdx)
-		divCarrocel.setAttribute('style', `background-image:url(ONSITE/RecursosGraficos/carrocel/${carrIdx}.jpg);`)
+		divCarrocel.setAttribute('style', `background-image:url(ONSITE/RecursosGraficos/carrocel/${carrIdx}.jpg);`);
+		divCarrocel.style.backgroundImage = `url(ONSITE/RecursosGraficos/carrocel/${carrIdx}.jpg);`
 		//divCarrocel.style.animationDuration = '5s'
 		divCarrocel.style.animationName = 'resizeBg'
 		
-	},5000)
+	},5000);
 	
 	divCarrocel.animationend = function(){
 		console.log('ok')
